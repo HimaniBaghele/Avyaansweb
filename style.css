@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+
+}
+
+/* .main{
+    height: 100%;
+    width: 100%;}*/
+
+
+#nav {
+    height: 50px;
+    width: 100%;
+    border: solid black;
+    justify-content: space-between;
+    display: flex;
+
+
+}
+
+#nav .prt1 {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    /* float: left; */
+
+}
+#nav .prt1 h4 h5{
+    justify-content: space-between;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+#nav .prt2 {
+    position: relative;
+    display: flex;
+    padding: 10px;
+    float: right;
+
+}
